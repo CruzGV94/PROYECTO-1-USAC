@@ -1,2 +1,3 @@
-# PROYECTO-1-USAC
-proyecto 1, ipc1, usac 
+# Cruz Gomez Velasco 
+# 202001816
+# IPC1, sección F  
