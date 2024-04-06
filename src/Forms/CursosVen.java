@@ -263,8 +263,8 @@ public class CursosVen extends javax.swing.JPanel {
         //String nuevoProfesor = JOptionPane.showInputDialog("Seleccione el nuevo profesor del curso:");
         // Mostrar el JComboBox en un JOptionPane
         int result = JOptionPane.showConfirmDialog(
-                null, // Componente padre (puedes ajustarlo según tu ventana principal)
-                CrearCurso.ComboBoxProfesores, // Componente que quieres mostrar (el JComboBox)
+                null, // Componente padre (se puede ajustar a la ventana principal)
+                CrearCurso.ComboBoxProfesores, // Componente que se quiere mostrar (en el JComboBox)
                 "Selecciona un profesor", // Título del JOptionPane
                 JOptionPane.OK_CANCEL_OPTION // Opciones de botones
         );
@@ -274,7 +274,7 @@ public class CursosVen extends javax.swing.JPanel {
             // Obtener el profesor seleccionado del JComboBox
             Profesores profesorSeleccionado = (Profesores) CrearCurso.ComboBoxProfesores.getSelectedItem();
 
-            // Ahora puedes trabajar con el profesor seleccionado
+            // Ahora se puede trabajar con el profesor seleccionado
             if (profesorSeleccionado != null) {
                 // Realiza las acciones necesarias con el profesor seleccionado
                 System.out.println("Profesor seleccionado: " + profesorSeleccionado.getNombre());
