@@ -17,7 +17,7 @@ public class FrameProfesor extends javax.swing.JFrame {
 
     public void cursoAsignado() {
         Profesores profesores = new Profesores();
-        // Crear un modelo de tabla para los cursos (asegúrate de que el modelo tenga las columnas necesarias)
+        // Crear un modelo de tabla para los cursos 
         DefaultTableModel model = new DefaultTableModel(new String[]{"Cursos Asignados", "Cantidad de Estudiantes"}, 0);
         TblCursos.setModel(model);
 
